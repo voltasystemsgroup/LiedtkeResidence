@@ -1,0 +1,12 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="C2N-AMP-6X100" DeviceId="22" Name="C2N-AMP-6x100 [TOP]"/>
+      <Device Model="C2N-AMP-6X100" DeviceId="23" Name="C2N-AMP-6x100 [BOTTOM]"/>
+      <Device Model="DM-MD6x6" DeviceId="31"/>
+      <Device Model="Autonomic MMS-5A" DeviceId="41" Name="Autonomics MMS-5A [MMS DIGITAL]"/>
+      <Device Model="Autonomic MMS-5A" DeviceId="42"/>
+      <Device Model="Autonomic MMS-5A" DeviceId="43"/>
+      <Device Model="Autonomic MMS-5A" DeviceId="44"/>
+   </Network>
+</Device>

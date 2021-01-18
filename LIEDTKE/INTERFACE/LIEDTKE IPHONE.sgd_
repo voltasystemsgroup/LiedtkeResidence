@@ -1,0 +1,242 @@
+[
+ObjTp=FSgntr
+Sgntr=SGD
+RelVrs=1
+VTProeVer=5.9.04
+]
+;================================================================================
+[
+ObjTp=Hd
+ProjectFile=LIEDTKE IPHONE.vtp
+VtpGuid=E2BAF219-9E6F-4160-9437-4A96D75A8526
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=LIEDTKE IPHONE_AA - HOME PAGE_AVZs.ced
+Hint=AVZs (Smart Object ID=11)
+Code=1
+GUID=BD6EBFAF-1A77-4442-9559-1961D8F5802D
+SmplCName=LIEDTKE IPHONE_AA - HOME PAGE_AVZs.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10000
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=9
+MaxVariableInputs=9
+MinVariableOutputs=9
+MaxVariableOutputs=9
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=9
+MaxVariableInputsList3=9
+MinVariableOutputsList3=9
+MaxVariableOutputsList3=9
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=Item 1 Checked
+InputSigType1=Digital
+OutputCue1=Item 1 Checked
+OutputSigType1=Digital
+InputCue2=Item 2 Checked
+InputSigType2=Digital
+OutputCue2=Item 2 Checked
+OutputSigType2=Digital
+InputCue3=Item 3 Checked
+InputSigType3=Digital
+OutputCue3=Item 3 Checked
+OutputSigType3=Digital
+InputCue4=Item 4 Checked
+InputSigType4=Digital
+OutputCue4=Item 4 Checked
+OutputSigType4=Digital
+InputCue5=Item 5 Checked
+InputSigType5=Digital
+OutputCue5=Item 5 Checked
+OutputSigType5=Digital
+InputCue6=Item 6 Checked
+InputSigType6=Digital
+OutputCue6=Item 6 Checked
+OutputSigType6=Digital
+InputCue7=Item 7 Checked
+InputSigType7=Digital
+OutputCue7=Item 7 Checked
+OutputSigType7=Digital
+InputCue8=Item 8 Checked
+InputSigType8=Digital
+OutputCue8=Item 8 Checked
+OutputSigType8=Digital
+InputCue9=Item 9 Checked
+InputSigType9=Digital
+OutputCue9=Item 9 Checked
+OutputSigType9=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=1
+CedH=1
+SmartObjId=11d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=1
+Tp=1
+HD=TRUE
+DV=11d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=1
+Name=LIEDTKE IPHONE_AA - HOME PAGE_AVZs.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=LIEDTKE IPHONE_ZZ - sECURITY_SECURITY TAB.ced
+Hint=SECURITY TAB (Smart Object ID=21)
+Code=2
+GUID=D3FDAE21-7B72-4DF2-8472-9B4D5AE61FF4
+SmplCName=LIEDTKE IPHONE_ZZ - sECURITY_SECURITY TAB.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=2
+CedH=2
+SmartObjId=21d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=2
+Tp=1
+HD=TRUE
+DV=21d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=2
+Name=LIEDTKE IPHONE_ZZ - sECURITY_SECURITY TAB.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

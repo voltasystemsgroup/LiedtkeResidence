@@ -1,0 +1,28 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-RTHS" DeviceId="21" Name="C2N-RTHS [WINE TMEP]"/>
+      <Device Model="C2N-CBD-P" DeviceId="31" Name="C2N-CBD-P [KP01][MBED]"/>
+      <Device Model="C2N-CBD-P" DeviceId="32" Name="C2N-CBD-P [KP02][MBATH]"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX" DeviceId="05" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="MLX-3" DeviceId="03" Name="MLX-3[ZONE_41][THEATRE]"/>
+            <Device Model="MLX-3" DeviceId="05" Name="MLX-3[ZONE_05][GUESTRM]"/>
+            <Device Model="YALE-CTLL,YALE–CTDB,YALE–PBLL,YALE-PBDB,CLK-YL-YRD216,CLK-YL-YRD226,CLK-YL-YRD246,NTB-TS" DeviceId="11" Name="Yale Lock [WINE CELLAR]"/>
+            <Device Model="HOME-CONNECT-DL-01" DeviceId="12" Name="BALDWIN LOCK [GARAGE DOOR]"/>
+            <Device Model="HOME-CONNECT-DL-01" DeviceId="13" Name="BALDWIN LOCK [FRONT DOOR]"/>
+            <Device Model="HR-150,HRI-150" DeviceId="21" Name="HR-150 [ZONE_06][DEN]"/>
+            <Device Model="HR-150,HRI-150" DeviceId="22" Name="HR-150 [ZONE_41][LIVING]"/>
+            <Device Model="HR-150,HRI-150" DeviceId="23" Name="HR-150 [ZONE_08][MASTERBATH]"/>
+            <Device Model="HR-150,HRI-150" DeviceId="24" Name="HR-150 [ZONE_05][GUEST ROOM]"/>
+         </Network>
+      </Device>
+      <Device Model="TSW-1050" DeviceId="11" Name="TSW-1050[TP02][DOWNSTAIRS]"/>
+      <Device Model="TSW-1050" DeviceId="12" Name="TSW-1050[TP03]UPSTAIRS]"/>
+      <Device Model="TSW-550" DeviceId="13" Name="TSW-550[TP04][FRONT DOOR]"/>
+      <Device Model="Crestron_App" DeviceId="FC" Name="Crestron App[TP05][IPHONE]"/>
+      <Device Model="Crestron_App" DeviceId="FD" Name="Crestron App [TPR01]"/>
+      <Device Model="Core3 UI XPanel" DeviceId="FE" Name="XPanel 2.0 Smart Graphics [TP01]"/>
+   </Network>
+</Device>

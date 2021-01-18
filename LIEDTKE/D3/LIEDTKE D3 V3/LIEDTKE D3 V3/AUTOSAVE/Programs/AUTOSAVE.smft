@@ -1,0 +1,43 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-MNETGW" DeviceId="0F">
+         <Network Type="RF">
+            <Device Model="CLW-DIMS1RF" DeviceId="04" Name="FRONTDOOR dimmer"/>
+            <Device Model="CLW-DIM1RF" DeviceId="05" Name="BACKYARD COACH dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="06" Name="MASTERCLOSET dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="07" Name="MASTER BATH dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="08" Name="MASTERBED dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="09" Name="BABYSROOM dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="0A" Name="TOP PATIO dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="0B" Name="MASTER HALL dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="0C" Name="DEN BATH dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="0D" Name="DEN dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="0E" Name="STAIRS dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="0F" Name="FRONT DOOR dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="11" Name="DINING ROOM dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="12" Name="KITCHEN dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="13" Name="KITCHEN SINK dimmer"/>
+            <Device Model="CLW-DIM1RF" DeviceId="14" Name="KITCHEN ISLAND dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="15" Name="GUEST HALL dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="16" Name="GUEST BATH dimmer"/>
+            <Device Model="CLW-DIMS1RF" DeviceId="17" Name="GUEST ROOM dimmer"/>
+            <Device Model="INET-CBD" DeviceId="18" Name="DINING KEYPAD"/>
+            <Device Model="INET-CBD" DeviceId="19" Name="DINING KEYPAD PATIO"/>
+         </Network>
+      </Device>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX" DeviceId="5A" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="CLF-LDIMUEX" DeviceId="31" Name="IP-ID 5A CEN-RFGW-EX (Shared Ethernet) RF-ID 31"/>
+            <Device Model="CLF-LDIMUEX" DeviceId="32" Name="IP-ID 5A CEN-RFGW-EX (Shared Ethernet) RF-ID 32"/>
+            <Device Model="CLC-FANDELVEX" DeviceId="35" Name="IP-ID 5A CEN-RFGW-EX (Shared Ethernet) RF-ID 35"/>
+            <Device Model="CLC-FANDELVEX" DeviceId="36" Name="IP-ID 5A CEN-RFGW-EX (Shared Ethernet) RF-ID 36"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="41" Name="GUEST ROOM KP"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="61" Name="LIVING ROOM dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="62" Name="CEILING FAN POWER LEG switch"/>
+            <Device Model="CLW-SWEX-P" DeviceId="65" Name="COACHLIGHTS switch"/>
+         </Network>
+      </Device>
+   </Network>
+</Device>
